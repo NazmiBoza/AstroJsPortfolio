@@ -1,0 +1,39 @@
+---
+import Projects from "./projects.astro";
+import Info from "./info.astro";
+---
+
+<div class="first_content" id="first">
+<div class="left">
+<Info></Info>
+</div>
+<div class="right">
+<Projects></Projects>
+</div>
+</div>
+
+<style>
+    .first_content{
+        display: grid;
+        width: 100%;
+    height: 100vh;
+    background-color: #222831;   
+            }
+    
+        @media only screen and (min-width: 770px) {
+  
+    .first_content{
+        display: flex;
+        width: 100%;
+    height: 100vh;
+    background-color: #222831;   
+            }
+    .left{
+    flex: 0.4; 
+        }
+    .right{
+    flex: 0.6; 
+        }
+  
+}
+</style>

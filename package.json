@@ -1,0 +1,19 @@
+{
+  "name": "@example/minimal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.1.7",
+    "daisyui": "^2.25.0"
+  },
+  "devDependencies": {
+    "@astrojs/tailwind": "^1.0.0"
+  }
+}

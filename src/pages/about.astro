@@ -1,0 +1,23 @@
+---
+import Navbar from "../components/navbar.astro";
+import About from "../components/about.astro";
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Nazmi Boza</title>
+</head>
+<body class="min-h-screen">
+
+    <Navbar></Navbar>
+    <About></About>
+</body>
+</html>
+
+<style>
+	body {background-color: #222831;
+}
+</style>
